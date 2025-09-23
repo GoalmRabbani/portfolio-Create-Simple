@@ -4,17 +4,48 @@
 /* nav style  */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 150px;
 }
-nav li{
-    display: inline;
-    margin-right: 15px;
+nav ul{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    
 }
 nav li>a{
     text-decoration: none;
-    color: black;
+    color: #474747;
+    
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
 }
 
+.nav_title{
+    font-weight:800;
+    font-size: 45px;
+}
 
+/* shared color */
+.single_color{
+    color: #FD6E0A;
+}
+.dark_2{
+    color: #474747;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    width: 130px;
+    height: 50px;
+    color: aliceblue;
+    font-weight: 800;
+}
 
 
 

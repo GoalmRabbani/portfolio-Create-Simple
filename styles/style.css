@@ -206,7 +206,7 @@ nav li{
 .message input,textarea{
     margin-bottom: 10px;
     padding: 7px;
-    background-color: white;
+    /* background-color: white; */
 }
 .footer{
     display: flex;

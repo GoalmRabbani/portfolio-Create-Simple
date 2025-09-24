@@ -8,7 +8,7 @@ header{
  
 }
 
-main{
+.main{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -109,8 +109,25 @@ nav li{
     justify-content: space-around;
 }
 
+/* skill section */
+.skils_section{
+    margin-top: 140px ;
+}
+.skill_desctip{
+    font-size: 18px;
+    color: #757575;
+}
+.skills{
+    display: flex;
+    margin-top: 50px;
 
-
+}
+.skill{
+    padding:30px;
+    background-color: #FFF8F3;
+    margin-right: 15px ;
+    border-radius: 5px;
+}
 
 /* shared color */
 .single_color{

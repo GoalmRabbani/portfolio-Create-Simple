@@ -129,6 +129,24 @@ nav li{
     border-radius: 5px;
 }
 
+/* Summery section */
+.summery_section{
+    display: flex;
+    gap: 10px;
+}
+.summary_card{
+    margin: 0 5px;
+    padding-right:10px;
+}
+
+.summary_tittle,.summarySubTittle{
+    color: #2e2b2b;
+}
+.smallTitle,.summeryDescrip{
+    color: #757575;
+    font-size: 12px;
+}
+
 /* shared color */
 .single_color{
     color: #FD6E0A;
@@ -164,10 +182,38 @@ nav li{
     text-align: center;
     margin: 30px 0px;
 }
+.lestBTN{
+    text-align: center;
+    margin: 20px 0;
+}
+.connect_tittle,.massage_tittle{
+    font-weight: bold;
+    font-size: 35px;
+}
+.contact_descrip{
+    font-size: 14px;
+    color: #757575;
+}
+.social_logo{
+   display: flex;
+   gap: 20px;
+}
 
 
-
-
+.message,.connect{
+    padding: 30px;
+}
+.message input,textarea{
+    margin-bottom: 10px;
+    padding: 7px;
+    background-color: white;
+}
+.footer{
+    display: flex;
+    background-color: #FFF8F3;
+    /* align-items: center; */
+    justify-content: center
+}
 
 /* Google font */
 
